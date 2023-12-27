@@ -1,0 +1,44 @@
+.mynav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mynav li {
+  background: #666;
+}
+.mynav li a {
+  text-decoration: none;
+  color: #ddd;
+  display: block;
+  margin-bottom: 1px;
+  padding: 5px;
+}
+.mainnav {
+  margin: 0;
+}
+.mynav li a:hover {
+  background: #444;
+}
+.mainnav li {
+  list-style: none;
+  font-weight: normal;
+  float: left;
+}
+.mainnav li a {
+  padding: 5px 10px;
+  color: #444;
+  background: #ddd;
+  margin-left: 5px;
+  text-decoration: none;
+}
+.mainnav li a:hover {
+  background: #666;
+  color: #fff;
+}
+.mytable {
+  margin: 20px 10px 10px 80px;
+  width: 900px;
+}
+.mytable tr td {
+  text-align: center;
+}
